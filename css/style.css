@@ -1,0 +1,51 @@
+/*Header*/
+header {
+    grid-area: hd;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: black solid 3px;
+}
+.hDiv {
+    display: inline-flex;
+}
+
+/*Footer*/
+footer {
+    grid-area: ft;
+    display: flex;
+    justify-content: space-between;
+
+    border-top: black solid 3px;
+}
+.fDiv {
+    display: inline-flex;
+    height: 100%;
+}
+
+
+/*Standard Grid*/
+grid1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px 4000px 100px;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'ma ma ma ma'
+    'ft ft ft ft'
+    ;
+}
+
+/*Grid with top/bottom*/
+grid2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px 2000px 2000px 100px;
+    grid-template-areas: 
+    'hd hd hd hd'
+    's1 s1 s1 s1'
+    's2 s2 s2 s2'
+    'ft ft ft ft'
+    ;
+}
