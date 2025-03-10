@@ -1,27 +1,85 @@
+/*Menu*/
+.menu-button{
+    display: inline-flex;
+    height: 90%;
+    margin: 10px;
+
+    cursor: pointer;
+}
+
+.menu{
+    height: 100%;
+    width: 30%;
+    background: #774b77;
+    position: fixed;
+    top: 0;
+    left: -30%;
+    transition: left 0.3s;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
+    z-index: 10;
+}
+.menuText{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 30px;
+}
+
+.show{
+    left: 0;
+}
+
+.fade-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 5;
+}
+
+.fade-layer.visible{
+    display: block;
+}
+
 /*Header*/
 header {
     grid-area: hd;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
-    border-bottom: black solid 3px;
+    background-color: #101414;
 }
 .hDiv {
     display: inline-flex;
+    height: 90%;
+    margin: 10px;
 }
 
 /*Footer*/
 footer {
     grid-area: ft;
+
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
-    border-top: black solid 3px;
+    background-color: #101414;
 }
 .fDiv {
     display: inline-flex;
-    height: 100%;
+    height: 70%;
+    margin: 10px;
+    gap: 20px;
+}
+
+.fText {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -35,6 +93,12 @@ grid1{
     'ma ma ma ma'
     'ft ft ft ft'
     ;
+}
+
+index{
+    grid-area: ma;
+
+    background-color: #ffd7cd;
 }
 
 /*Grid with top/bottom*/
