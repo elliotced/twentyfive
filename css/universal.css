@@ -1,0 +1,129 @@
+/*Menu*/
+.menu-button{
+    display: inline-flex;
+    height: 90%;
+    margin: 10px;
+
+    cursor: pointer;
+}
+
+.menu{
+    height: 100%;
+    width: 30%;
+    background: #774b77;
+    position: fixed;
+    top: 0;
+    left: -30%;
+    transition: left 0.3s;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
+    z-index: 10;
+}
+.menuText{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 30px;
+}
+
+.show{
+    left: 0;
+}
+
+.fade-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 5;
+}
+
+.fade-layer.visible{
+    display: block;
+}
+
+@media screen and (orientation:portrait) {
+    .menu{
+        height: 20%;
+        width: 100%;
+        top: -20%;
+        left: 0;
+        transition: left 0.3s;
+        box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
+    }
+    .menuText{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        margin: 10px;
+    }
+    .show{
+        top: 0;
+    }
+}
+
+/*Header*/
+header {
+    grid-area: hd;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #101414;
+}
+.hDiv {
+    display: inline-flex;
+    height: 90%;
+    margin: 10px;
+}
+
+/*Footer*/
+footer {
+    grid-area: ft;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #101414;
+}
+.fDiv {
+    display: inline-flex;
+    height: 70%;
+    margin: 10px;
+    gap: 20px;
+}
+
+.fText {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Standard Grid*/
+grid1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px 4000px 100px;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'ma ma ma ma'
+    'ft ft ft ft'
+    ;
+}
+
+/*Grid with top/bottom*/
+grid2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px 2000px 2000px 100px;
+    grid-template-areas: 
+    'hd hd hd hd'
+    's1 s1 s1 s1'
+    's2 s2 s2 s2'
+    'ft ft ft ft'
+    ;
+}
