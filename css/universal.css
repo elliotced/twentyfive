@@ -55,6 +55,7 @@ header {
     align-items: center;
 
     background-color: #774b77;
+    border-bottom: solid white 3px;
 }
 .hDiv {
     display: inline-flex;
@@ -71,6 +72,7 @@ footer {
     align-items: center;
 
     background-color: #774b77;
+    border-top: solid white 3px;
 }
 .fDiv {
     display: inline-flex;
@@ -93,7 +95,7 @@ footer {
 grid1{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 100px 4000px 100px;
+    grid-template-rows: 100px 2000px 100px;
     grid-template-areas: 
     'hd hd hd hd'
     'ma ma ma ma'
@@ -105,7 +107,7 @@ grid1{
 grid2{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 100px 2000px 2000px 100px;
+    grid-template-rows: 100px 600px 1400px 100px;
     grid-template-areas: 
     'hd hd hd hd'
     's1 s1 s1 s1'

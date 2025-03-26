@@ -36,7 +36,6 @@ index{
 
 #infoItem{
     width: 96%;
-    height: 15%;
     min-height: auto;
 }
 
@@ -74,7 +73,7 @@ index{
         transform: translate(-50%, -60%);
     }
     #infoItem{
-        height: 10%;
+        height: 400px;
     }
     #infoHeader{
         font-size: 28px;
