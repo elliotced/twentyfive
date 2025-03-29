@@ -1,0 +1,100 @@
+concert{
+    grid-area: ma;
+
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    background-color: #f8f4ec;
+}
+
+#concertStart{
+    width: 100%;
+    height: 400px;
+
+    background-image: url('/img/concert/mainBg.jpg');
+    background-size: cover;
+}
+
+#concertHeader{
+    text-align: center;
+
+    font-size: 79px;
+    font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
+    color: white;
+}
+
+.concertItem{
+    position: relative;
+
+    width: 96%;
+    margin: 2%;
+    aspect-ratio: 6 / 1;
+
+    background-color: #d4ccb9;
+
+    box-sizing: border-box;
+    border: #928977 solid 2px;
+}
+.concertHeader1{
+    padding-left: 20px;
+
+    font-size: 38px;
+    font-family: Arial Narrow,Arial,sans-serif; 
+    color: #928977;
+}
+.concertHeader2{
+    padding-left: 20px;
+
+    font-size: 30px;
+    font-family: Arial Narrow,Arial,sans-serif; 
+    color: #928977;
+}
+.concertTicket{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 25px;
+    padding: 5px;
+
+    font-size: 38px;
+    font-family: Arial Narrow,Arial,sans-serif; 
+    color: #928977;
+
+    box-sizing: border-box;
+    border: #928977 solid 2px;
+}
+
+@media screen and (orientation:portrait) {
+    #concertStart{
+        height: 200px;
+    }
+    #concertHeader{
+        font-size: 49px;
+    }
+    .concertItem{
+        aspect-ratio: 4 / 1;
+    }
+    .concertHeader1{
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .concertHeader2{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .concertTicket{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 5px;
+        padding: 2px;
+    
+        font-size: 29px;
+        font-family: Arial Narrow,Arial,sans-serif; 
+        color: #928977;
+    
+        box-sizing: border-box;
+        border: #928977 solid 2px;
+    }
+}
