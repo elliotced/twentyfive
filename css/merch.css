@@ -123,14 +123,14 @@ section2{
     margin: 2%;
 
     box-sizing: border-box;
-    border: #928977 solid 2px;
+    border: black solid 2px;
 }
 .merchHeader{
     text-align: center;
     
     font-size: 30px;
     font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
-    color: #928977;
+    color: black
 }
 
 .merchImg{
@@ -139,7 +139,7 @@ section2{
     height: 70%;
 
     background-color: #d4ccb9;
-    border-bottom: #928977 solid 2px;
+    border-bottom: black solid 2px;
 }
 
 @media screen and (orientation:portrait) {

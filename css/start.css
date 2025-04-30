@@ -16,14 +16,14 @@ index{
     margin: 2%;
 
     box-sizing: border-box;
-    border: #928977 solid 2px;
+    border: black solid 2px;
 }
 .startHeader{
     text-align: center;
     
     font-size: 38px;
     font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
-    color: #928977;
+    color: black;
 }
 
 .startBg{

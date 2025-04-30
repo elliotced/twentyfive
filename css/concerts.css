@@ -34,21 +34,21 @@ concert{
     background-color: #d4ccb9;
 
     box-sizing: border-box;
-    border: #928977 solid 2px;
+    border: black solid 2px;
 }
 .concertHeader1{
     padding-left: 20px;
 
     font-size: 38px;
     font-family: Arial Narrow,Arial,sans-serif; 
-    color: #928977;
+    color: black;
 }
 .concertHeader2{
     padding-left: 20px;
 
     font-size: 30px;
     font-family: Arial Narrow,Arial,sans-serif; 
-    color: #928977;
+    color: black;
 }
 .concertTicket{
     position: absolute;
@@ -59,10 +59,10 @@ concert{
 
     font-size: 38px;
     font-family: Arial Narrow,Arial,sans-serif; 
-    color: #928977;
+    color: black;
 
     box-sizing: border-box;
-    border: #928977 solid 2px;
+    border: black solid 2px;
 }
 
 @media screen and (orientation:portrait) {

@@ -29,7 +29,7 @@ music{
     margin: 2%;
 
     box-sizing: border-box;
-    border: #928977 solid 2px;
+    border: black solid 2px;
 
     overflow: hidden; /* 1. Contain any overflow */ 
 }
