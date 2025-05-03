@@ -1,4 +1,4 @@
-section1{
+#s1{
     grid-area: s1;
 
     display: flex;
@@ -107,7 +107,7 @@ border-radius: 50%;
 }
 /* ↑↑↑ Slider from https://www.w3schools.com/howto/howto_css_switch.asp ↑↑↑ */
 
-section2{
+#s2{
     grid-area: s2;
 
     display: flex;

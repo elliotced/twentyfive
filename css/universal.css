@@ -51,7 +51,7 @@
 }
 
 /*Header*/
-header {
+#header {
     grid-area: hd;
 
     display: flex;
@@ -68,7 +68,7 @@ header {
 }
 
 /*Footer*/
-footer {
+#footer {
     grid-area: ft;
 
     display: flex;
@@ -96,10 +96,10 @@ footer {
 
 
 /*Standard Grid*/
-grid1{
+#grid1{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 100px 2000px 100px;
+    grid-template-rows: 100px 2200px 100px;
     grid-template-areas: 
     'hd hd hd hd'
     'ma ma ma ma'
@@ -108,7 +108,7 @@ grid1{
 }
 
 /*Grid with top/bottom*/
-grid2{
+#grid2{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 100px 600px 1400px 100px;
